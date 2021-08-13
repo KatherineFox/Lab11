@@ -5,6 +5,8 @@ import org.telegram.telegrambots.ApiContextInitializer;
 import org.telegram.telegrambots.meta.api.objects.Update;
 
 public final class HelloWorldBot extends Bot {
+
+    // hello from lab11
     public static void main(String[] args){
         if(args == null || args.length != 2){
             System.out.println("You must run bot with 2 args - BotToken and bot UserName");
